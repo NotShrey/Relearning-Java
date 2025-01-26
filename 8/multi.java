@@ -6,6 +6,7 @@ class multi{
 
         int a = s.nextInt();
         int c = 1;
+        s.close();
 
         while(c <= 10){
             System.out.printf((a * c) + " ");
