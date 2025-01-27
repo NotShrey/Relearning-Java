@@ -42,6 +42,7 @@ public class CStudent {
         int m1 = sc.nextInt();
         int m2 = sc.nextInt();
         int m3 = sc.nextInt();
+        sc.close();
 
         newStu s = new newStu();
         s.rollNo = rolNo;
