@@ -11,6 +11,7 @@
 
 class MyThread extends java.lang.Thread {
 
+    @Override
     public void run() {
         int i = 1;
         while (i <= 20) {
@@ -22,6 +23,7 @@ class MyThread extends java.lang.Thread {
 
 public class ThreadTest extends java.lang.Thread {
 
+    @Override
     public void run() {
         int i = 1;
         while (i <= 20) {
